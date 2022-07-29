@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: darkred;
+}
+h1{
+    background-color: lightpink;
+}
+p{
+    background-color: lightskyblue;
+}
+input[type="email"], input[type="password"]{
+    background-color: darkgray;
+    padding: 5px;
+}
+.extra{
+    background-color: yellow;
+    color: #000;
+}
+#unico{
+    font-weight: bolder;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
