@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 012</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Informações pessoais</legend>
+            Nome: <input type="text" name="nome" id="nome" required autofocus maxlength="20" placeholder="nome completo"> <br>
+            <!-- disabled-->
+            E-mail: <input type="email" name="email" id="email" required placeholder="nome@email.com"> <br>
+            Telefone: <input type="tel" name="tel" id="tel">
+            Sexo: <br>
+            <input type="radio" name="sexo" id="sexo" value="M"> Masculino
+            <input type="radio" name="sexo" id="sexo" value="F"> Feminino
+            <br>
+            Animes: <br>
+            <input type="checkbox" name="anime" id="anime" checked> Naruto
+            <input type="checkbox" name="anime" id="anime"> Dragon Ball
+            <input type="checkbox" name="anime" id="anime"> One Piece
+            <br>
+            Idade: <input type="number" name="idade" id="idade" step="1" max="80" min="1"> <br>
+            Satisfação: <input type="range" name="satis" id="satis"><br>
+            Cor: <br>
+            <input type="color" name="" id="">
+            <br>
+            Foto: <input type="file" name="foto" id="foto"> <br>
+            Instagram: <input type="url" name="insta" id="insta"> <br>
+            Pesquisar: <input type="search" name="pesquisa" id="pesquisa"> <br>
+            Data: <input type="date" name="data" id="data" min="2000-01-01" max="2022-12-31"> <br>
+            Hora: <input type="time" name="hora" id="hora"> <br>
+            Mês e Ano: <input type="month" name="MA" id="MA"> <br>
+            Semana: <input type="week" name="sem" id="sem"> <br>
+            Data e Hora: <input type="datetime" name="DH" id="DH"> <br>
+            mensagem: <br>
+            <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+            <!-- spellcheck="false" -->
+            <br>
+            <button type="button">clique</button> <br>
+            Estado: 
+            <select name="est" id="est">
+                <optgroup label="Sudeste">
+                    <option value="SP" selected>São Paulo</option>
+                </optgroup>
+                <optgroup label="Nordeste">
+                    <option value="BA">Bahia</option>
+                </optgroup>
+            </select>
+            <br>
+
+            Senha: <input type="password" name="senha" id="senha" required> <br>
+            <input type="hidden" name="invisivel">
+            <!-- input invisivel -->
+            <input type="submit" value="enviar">
+        </fieldset>
+    </form>
+</body>
+</html>
