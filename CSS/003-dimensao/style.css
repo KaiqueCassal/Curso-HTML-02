@@ -1,0 +1,10 @@
+#conteudo{
+    background-color: green;
+    color: whitesmoke;
+    padding: 20px;
+    max-width: 80%;
+    /*min-width*/
+    max-height: 100px;
+    /*min-height*/
+    text-align: justify;
+}
