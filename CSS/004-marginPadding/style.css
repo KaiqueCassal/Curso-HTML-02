@@ -1,0 +1,28 @@
+#exemplo{
+    background-color: green;
+    color: whitesmoke;
+    width: 500px;
+
+    /*
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    */
+    padding: 10px 20px 30px 40px;
+    /*espaço interno*/
+}
+#exemplo02{
+    background-color: red;
+    color: whitesmoke;
+    width: 500px;
+
+    /*
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    */
+    margin: 20px;
+    /*espaço externo*/
+}
