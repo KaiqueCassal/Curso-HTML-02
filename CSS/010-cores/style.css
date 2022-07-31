@@ -1,0 +1,14 @@
+#cores{
+    width: 200px;
+    height: 200px;
+
+    /*
+        background-color: red;
+        background-color: #ff0000;
+        background-color: rgb(255, 0, 0);
+        background-color: hsl(0, 100%, 50%);
+    */
+    background: linear-gradient(to right red, blue, green);
+    background: radial-gradient(red, blue, green);
+
+}
