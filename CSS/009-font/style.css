@@ -2,10 +2,26 @@
     font-size: 100%;
 }
 
+@font-face {
+    font-family: "Lemon Days";
+    src: url("font/Lemon\ Days.otf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+h1{
+    font-family: "Lemon Days", sans-serif;
+    font-size: 3em;
+}
+
 p{
     font-family: Arial, Helvetica, sans-serif;
     font-variant: small-caps;
     font-weight: bold;
     font-style: italic;
     font-size: 2em;
+}
+#google{
+    font-family: 'Roboto', sans-serif;
 }
