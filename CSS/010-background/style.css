@@ -8,7 +8,21 @@
         background-color: rgb(255, 0, 0);
         background-color: hsl(0, 100%, 50%);
     */
+
     background: linear-gradient(to right red, blue, green);
     background: radial-gradient(red, blue, green);
 
+}
+
+body{
+    /*
+    background-image: url("img/kaiq.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    */
+
+    background: url("img/kaiq.png") center center no-repeat fixed;
+
+    background-size: cover;
 }
